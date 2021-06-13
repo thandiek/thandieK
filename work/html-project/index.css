@@ -1,6 +1,46 @@
-div {
-    border: 1px solid black;
-    width: 400px;
-    padding-left: 12px;
-    border-radius: 5px;
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+    text-decoration: none;
+  }  
+
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
 }
+
+header nav ul li {
+    display: inline;
+    color: #fce138;
+  }
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    text-decoration: none;
+    color: #fce138;
+  }
+
+  header h1 a {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+    text-decoration: none;
+  }
+
+  header h1 {
+    margin: 0;
+    display: inline;
+  }
